@@ -1,0 +1,182 @@
+/* main members */
+
+body{
+    font-family: "Montserrat-light";
+}
+
+h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: "Montserrat";
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* title and navigation bar */
+
+#title{
+    background-color:  #ff4c68;
+    color: #fff;
+    padding-bottom: 0.80%;
+}
+
+.container-fluid{
+    padding: 3% 15% 10%;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+}
+
+/* Download button */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* the phone image */
+
+.title-image{
+    width: 23%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;   
+}
+
+.icon{
+    margin-bottom: 4px;
+}
+
+/* Testimonial */
+
+#testimonials{
+    text-align: center;
+    background-color: #fa5f0d;
+    color: #fff;
+}
+
+.testimonials-image{
+    width: 15%;
+    margin: 20px;
+    margin-top: 40px;
+    border-radius: 100%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.c-btn:hover{
+    background-color: rgb(247, 73, 73);
+}
+
+#press{
+    background-color: #fa5f0d;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Last containers */
+
+#cta{
+    background-color:  #ff4c68;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 4rem;
+}
+
+.footer-text{
+    font-size: 3rem;
+    color: #fff;
+    margin: 4% 15%;
+}
+
+.icon-font{
+    font-family: "Ubuntu";
+}
+
+.footer-btn{
+    margin-left: 30px;
+}
+
+#footer{
+    text-align: center;
+    margin: 60px;
+    padding: 2rem 0;
+}
+
+.footer-icon{
+    height: 19px;
+    width: 19px;
+    margin: 7px;
+    margin-bottom: 20px;
+}
+
+/* media specifier for tablets and phones */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 70%;
+        margin-top: 30px;
+    }
+}

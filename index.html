@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+
+  <!-- bootstrap css and js  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Ubuntu&display=swap" rel="stylesheet"> <link rel="stylesheet" href="css/styles.css">
+ 
+  <!-- font awesome website for apple and windows icon-->
+  
+  
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">TinDog</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="19" height="19"
+            viewBox="0 0 172 172"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="#000000"></path><g fill="#ffffff"><path d="M115.5625,7.16667c-8.26317,0.48017 -17.74948,5.08363 -23.38965,10.94596c-5.0955,5.332 -9.11578,13.25094 -7.47461,20.91211c8.97983,0.2365 17.99315,-4.48622 23.38965,-10.45605c5.03817,-5.58283 8.85778,-13.37535 7.47461,-21.40202zM116.05241,39.01074c-12.9645,0 -18.38507,7.96452 -27.36491,7.96452c-9.23783,0 -17.68263,-7.46061 -28.86263,-7.46061c-15.20767,0.00717 -38.32487,14.09437 -38.32487,47.2832c0,30.19317 27.35987,63.70215 42.80404,63.70215c9.38117,0.09317 11.65546,-5.89839 24.38346,-5.96289c12.74233,-0.09317 15.49187,6.04172 24.88737,5.96289c10.578,-0.07883 18.83904,-11.70294 24.87337,-20.91211c4.32867,-6.59333 6.10824,-9.95942 9.46224,-17.41276c-24.88983,-6.30667 -29.842,-46.44482 0,-54.74382c-5.633,-9.6105 -22.07558,-18.42057 -31.85808,-18.42057z"></path></g></g></svg> Download
+          </button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="19" height="19"
+            viewBox="0 0 172 172"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="#ff4c68"></path><g fill="#ffffff"><path d="M43.70547,18.40938l59.49453,59.48334l15.35234,-15.35235c-20.97827,-12.728 -49.07545,-29.80249 -61.71172,-37.47943l-8.46563,-5.12865c-1.4964,-0.9116 -3.0986,-1.40252 -4.66953,-1.52292zM34.62396,25.53125c-0.1204,0.6536 -0.22396,1.31042 -0.22396,2.01563v117.55573c0,0.49307 0.09917,0.952 0.16797,1.42214l60.52474,-60.52474zM128.64167,68.66562l-17.33438,17.33438l17.03204,17.03203c9.02427,-5.4696 15.27449,-9.26766 15.96823,-9.6862c3.06733,-1.8748 4.79952,-4.70348 4.74792,-7.79375c-0.04587,-3.03293 -1.77859,-5.74462 -4.72552,-7.41302c-0.65933,-0.3784 -6.82455,-4.1013 -15.68828,-9.47344zM103.2,94.10729l-59.31536,59.31537c1.1524,-0.20067 2.30337,-0.54431 3.40417,-1.20938c1.52507,-0.9288 42.72453,-25.92479 70.9612,-43.05599z"></path></g></g></svg> Download
+          </button>
+        </div>
+      
+        <div class="col-lg-6">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">     
+        </div>
+    </div>
+  </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">    
+    
+    <div class="row">
+      <div class="feature-box col-lg-4 md-12">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+        width="96" height="96"
+        viewBox="0 0 172 172"
+        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="#fa5f0d"></path><g fill="#ffffff"><path d="M57.49996,86.3698l8.10693,-8.10693l22.3514,22.3514l-8.1184,8.10693z"></path><path d="M71.52083,100.36773l34.5118,-34.5118l8.55413,8.55413l-34.5118,34.52327z"></path><path d="M80.65116,131.52267l-1.34733,11.4208c2.20447,0.26087 4.46627,0.38987 6.73093,0.38987v-11.46667c-1.8232,0 -3.61487,-0.1376 -5.3836,-0.344z"></path><path d="M70.64076,42.83947l-3.85567,-10.84747c-4.01907,1.41327 -7.87473,3.311 -11.50393,5.61007l6.20347,9.70653c2.8552,-1.81747 5.92253,-3.31387 9.15613,-4.46913z"></path><path d="M53.49236,53.6984l-8.15853,-8.06967c-2.9928,3.0186 -5.68173,6.3898 -7.94353,10.019l9.77533,6.10313c1.81747,-2.91253 3.91873,-5.62727 6.32673,-8.05247z"></path><path d="M42.75669,70.94713l-10.88473,-3.76967c-1.39033,4.0076 -2.3564,8.2044 -2.80647,12.45853l11.4122,1.25847c0.38127,-3.45147 1.17247,-6.77107 2.279,-9.94733z"></path><path d="M40.48056,91.13133l-11.41507,1.29287c0.4472,4.2312 1.41327,8.428 2.8294,12.47l10.87327,-3.80693c-1.1094,-3.17913 -1.90347,-6.5016 -2.2876,-9.95593z"></path><path d="M47.19716,110.30647l-9.77533,6.10313c2.2618,3.6292 4.95073,6.97747 7.96933,10.019l8.12413,-8.1012c-2.3994,-2.41373 -4.4978,-5.11987 -6.31813,-8.02093zM61.50469,124.70573l-6.16333,9.72947c3.5948,2.2876 7.46193,4.15953 11.50393,5.61007l3.8614,-10.8618c-3.25367,-1.15527 -6.33533,-2.6574 -9.202,-4.47773zM86.03476,40.13333v-11.46667c-2.23887,0 -4.50353,0.129 -6.73093,0.38987l1.33587,11.42367c1.7716,-0.20927 3.56613,-0.34687 5.39507,-0.34687zM86.03476,28.66667v11.46667c0.00287,0 0.00573,0 0.0086,0c25.33273,0 45.86667,20.53393 45.86667,45.86667c0,25.33273 -20.53393,45.86667 -45.86667,45.86667c-0.00287,0 -0.00573,0 -0.0086,0v11.46667c31.6136,0 57.33333,-25.71973 57.33333,-57.33333c0,-31.6136 -25.71973,-57.33333 -57.33333,-57.33333z"></path></g></g></svg>
+         <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+  
+      <div class="feature-box col-lg-4 md-12">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+        width="96" height="96"
+        viewBox="0 0 172 172"
+        style=" fill:#000000;"><g transform=""><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g><path d="M113.82906,95.92494c0.387,-1.0965 1.38138,-1.86244 2.54506,-1.86244h4.56338v-16.125h-4.56338c-1.16369,0 -2.15806,-0.76594 -2.54506,-1.86244c-0.33325,-0.93794 -0.7095,-1.85438 -1.13144,-2.74394c-0.49719,-1.05081 -0.33594,-2.28975 0.48644,-3.11213l3.22231,-3.22231l-11.40306,-11.40306l-3.22231,3.22231c-0.82237,0.82238 -2.06131,0.98363 -3.11213,0.48644c-0.89225,-0.42194 -1.806,-0.79819 -2.74394,-1.13144c-1.0965,-0.387 -1.86244,-1.38137 -1.86244,-2.54506v-4.56338h-16.125v4.56338c0,1.16369 -0.76594,2.15806 -1.86244,2.54506c-0.93794,0.33325 -1.85438,0.7095 -2.74394,1.13144c-1.05081,0.49719 -2.28975,0.33594 -3.11213,-0.48644l-3.22231,-3.22231l-11.40306,11.40306l3.22231,3.22231c0.82238,0.82237 0.98363,2.06131 0.48644,3.11213c-0.42194,0.89225 -0.79819,1.806 -1.13144,2.74394c-0.387,1.0965 -1.38137,1.86244 -2.54506,1.86244h-4.56338v16.125h4.56338c1.16369,0 2.15806,0.76594 2.54506,1.86244c0.33325,0.93794 0.7095,1.85437 1.13144,2.74394c0.49719,1.05081 0.33594,2.28975 -0.48644,3.11213l-3.22231,3.22231l11.40306,11.40306l3.22231,-3.22231c0.82237,-0.82237 2.06131,-0.98363 3.11213,-0.48644c0.89225,0.42194 1.806,0.79819 2.74394,1.13144c1.0965,0.387 1.86244,1.38137 1.86244,2.54506v4.56338h16.125v-4.56338c0,-1.16369 0.76594,-2.15806 1.86244,-2.54506c0.93794,-0.33325 1.85437,-0.7095 2.74394,-1.13144c1.05081,-0.49719 2.28975,-0.33594 3.11213,0.48644l3.22231,3.22231l11.40306,-11.40306l-3.22231,-3.22231c-0.82237,-0.82237 -0.98363,-2.06131 -0.48644,-3.11213c0.42194,-0.88956 0.79819,-1.806 1.13144,-2.74394zM86,104.8125c-10.38988,0 -18.8125,-8.42262 -18.8125,-18.8125c0,-10.38988 8.42262,-18.8125 18.8125,-18.8125c10.38988,0 18.8125,8.42262 18.8125,18.8125c0,10.38988 -8.42262,18.8125 -18.8125,18.8125z" fill="#fa5f0d"></path><path d="M131.6875,86l8.0625,10.75l8.0625,-10.75z" fill="#fa5f0d"></path><path d="M40.3125,91.375l-8.0625,-10.75l-8.0625,10.75z" fill="#fa5f0d"></path><path d="M42.62644,141.92419c-6.05763,-1.86781 -7.99531,-3.8055 -9.86312,-9.86312c-0.15319,-0.49988 -0.87075,-0.49988 -1.02663,0c-1.86781,6.05763 -3.8055,7.99531 -9.86312,9.86312c-0.49987,0.15319 -0.49987,0.87075 0,1.02662c6.05762,1.86781 7.99531,3.8055 9.86313,9.86312c0.15319,0.49988 0.87075,0.49988 1.02663,0c1.86781,-6.05762 3.8055,-7.99531 9.86312,-9.86312c0.49719,-0.15319 0.49719,-0.87075 0,-1.02662z" fill="#fa5f0d"></path><path d="M155.31331,28.79388c-9.08644,-2.80306 -11.99162,-5.70556 -14.79469,-14.79469c-0.23112,-0.74981 -1.30612,-0.74981 -1.53725,0c-2.80306,9.08913 -5.70556,11.99162 -14.79469,14.79469c-0.74981,0.23113 -0.74981,1.30881 0,1.53725c9.08644,2.80306 11.99163,5.70556 14.79469,14.79469c0.23112,0.74981 1.30612,0.74981 1.53725,0c2.80306,-9.08644 5.70556,-11.99162 14.79469,-14.79469c0.74981,-0.23113 0.74981,-1.30613 0,-1.53725z" fill="#fa5f0d"></path><path d="M86,107.5c11.85456,0 21.5,-9.64544 21.5,-21.5c0,-11.85456 -9.64544,-21.5 -21.5,-21.5c-11.85456,0 -21.5,9.64544 -21.5,21.5c0,11.85456 9.64544,21.5 21.5,21.5zM86,69.875c8.89294,0 16.125,7.23206 16.125,16.125c0,8.89294 -7.23206,16.125 -16.125,16.125c-8.89294,0 -16.125,-7.23206 -16.125,-16.125c0,-8.89294 7.23206,-16.125 16.125,-16.125z" fill="#fa000d"></path><path d="M51.0625,75.25c-1.48619,0 -2.6875,1.20131 -2.6875,2.6875v16.125c0,1.48619 1.20131,2.6875 2.6875,2.6875l4.57412,0.06988c0.36281,1.02394 0.77669,2.02637 1.27925,3.06106l-3.21963,3.22231c-1.05081,1.05081 -1.05081,2.74931 0,3.80012l11.40037,11.40037c1.05081,1.05081 2.74931,1.05081 3.80013,0l3.28413,-3.182c0.97288,0.46225 1.97531,0.87613 3.07181,1.24969v4.56606c0,1.48619 1.20131,2.6875 2.6875,2.6875h16.125c1.48619,0 2.6875,-1.20131 2.6875,-2.6875l0.06988,-4.57412c1.02394,-0.36281 2.02638,-0.77669 3.06106,-1.27925l3.22231,3.21963c1.05081,1.05081 2.74931,1.05081 3.80013,0l11.40037,-11.40037c1.05081,-1.05081 1.05081,-2.74931 0,-3.80012l-3.182,-3.28413c0.46225,-0.97288 0.87613,-1.97531 1.24969,-3.07181h4.56337c1.48619,0 2.6875,-1.20131 2.6875,-2.6875v-16.125c0,-1.48619 -1.20131,-2.6875 -2.6875,-2.6875l-4.57412,-0.06987c-0.36281,-1.02394 -0.77669,-2.02638 -1.27925,-3.06106l3.21963,-3.22231c1.05081,-1.05081 1.05081,-2.74931 0,-3.80013l-11.40037,-11.40037c-1.05081,-1.05081 -2.74931,-1.05081 -3.80012,0l-3.28413,3.182c-0.97288,-0.46225 -1.97531,-0.87613 -3.07181,-1.24969v-4.56338c0,-1.48619 -1.20131,-2.6875 -2.6875,-2.6875h-16.125c-1.48619,0 -2.6875,1.20131 -2.6875,2.6875l-0.06987,4.57412c-1.02394,0.36281 -2.02638,0.77669 -3.06106,1.27925l-3.22231,-3.21963c-1.05081,-1.05081 -2.74931,-1.05081 -3.80013,0l-11.40037,11.40037c-1.05081,1.05081 -1.05081,2.74931 0,3.80013l3.182,3.28413c-0.46225,0.97288 -0.87613,1.97531 -1.24969,3.07181h-4.56338zM60.716,68.31894l-1.31956,-1.32225l7.60025,-7.60025l1.31956,1.31687c1.591,1.59638 4.0635,2.00756 6.16244,1.01856c0.81163,-0.38431 1.63938,-0.72562 2.49131,-1.02394c2.18494,-0.774 3.655,-2.8165 3.655,-5.08206v-1.87588h10.75v1.87588c0,2.26556 1.47006,4.30806 3.655,5.08206c0.84925,0.29831 1.67969,0.63962 2.494,1.02663c2.08819,0.989 4.56606,0.57512 6.15706,-1.01856l1.32225,-1.31956l7.60025,7.60025l-1.31688,1.31956c-1.59906,1.59369 -2.00756,4.06887 -1.01856,6.16244c0.38431,0.81163 0.72563,1.63938 1.02394,2.49131c0.774,2.18494 2.8165,3.655 5.08206,3.655h1.87588v10.75h-1.87588c-2.26556,0 -4.30806,1.47006 -5.08206,3.655c-0.29831,0.84925 -0.63962,1.67969 -1.02662,2.494c-0.98631,2.09087 -0.57781,4.56606 1.01856,6.15706l1.31956,1.32225l-7.60025,7.60025l-1.31956,-1.31688c-1.591,-1.60175 -4.06888,-2.01025 -6.16244,-1.01856c-0.81162,0.38431 -1.63938,0.72563 -2.49131,1.02394c-2.18494,0.774 -3.655,2.8165 -3.655,5.08206v1.87588h-10.75v-1.87588c0,-2.26556 -1.47006,-4.30806 -3.655,-5.08206c-0.84925,-0.29831 -1.67969,-0.63962 -2.494,-1.02662c-2.09087,-0.99169 -4.56875,-0.57781 -6.15706,1.01856l-1.32225,1.31956l-7.60025,-7.60025l1.31687,-1.31956c1.59906,-1.59369 2.00756,-4.06888 1.01856,-6.16244c-0.38431,-0.81162 -0.72562,-1.63938 -1.02394,-2.49131c-0.774,-2.18494 -2.8165,-3.655 -5.08206,-3.655h-1.87588v-10.75h1.87588c2.26556,0 4.30806,-1.47006 5.08206,-3.655c0.29831,-0.84925 0.63962,-1.67969 1.02663,-2.494c0.98631,-2.09087 0.57781,-4.56606 -1.01856,-6.15706z" fill="#fa000d"></path><path d="M45.6875,142.4375c0,-1.42706 -0.91644,-2.666 -2.28169,-3.08256c-5.18956,-1.60175 -6.47419,-2.88637 -8.07325,-8.07325c-0.41387,-1.36525 -1.65281,-2.28169 -3.08256,-2.28169c-1.42975,0 -2.66869,0.91644 -3.07988,2.27094c-1.60713,5.20031 -2.88906,6.48225 -8.07863,8.084c-1.36256,0.41387 -2.279,1.65281 -2.279,3.08256c0,1.42975 0.91644,2.66869 2.27094,3.07988c5.20031,1.60712 6.48225,2.88906 8.084,8.07862c0.41388,1.36256 1.65281,2.279 3.08256,2.279c1.42975,0 2.66869,-0.91644 3.07988,-2.27094c1.60713,-5.20031 2.88906,-6.48225 8.07863,-8.084c1.36256,-0.41387 2.279,-1.65281 2.279,-3.08256zM32.25,147.02506c-1.15025,-2.00219 -2.58537,-3.43462 -4.58756,-4.58756c2.00219,-1.15025 3.43463,-2.58269 4.58756,-4.58756c1.15025,2.00219 2.58269,3.43462 4.58756,4.58756c-2.00219,1.15025 -3.43463,2.58537 -4.58756,4.58756zM41.82556,144.49344c0.00269,0 0.00538,0 0.00538,0c0.00538,0.00269 0.00806,0.00269 0.01075,0.00538c-0.00538,-0.00269 -0.01075,-0.00269 -0.01612,-0.00538z" fill="#fa000d"></path><path d="M158.5625,29.5625c0,-1.54263 -0.98631,-2.88369 -2.45638,-3.33519c0,0 0,0 0,-0.00269c-8.2775,-2.55044 -10.46781,-4.74075 -13.02094,-13.01825c-0.4515,-1.47006 -1.79256,-2.45638 -3.33519,-2.45638c-1.54262,0 -2.88369,0.98631 -3.33787,2.45637c-2.55044,8.2775 -4.74075,10.46781 -13.01825,13.02094c-1.47006,0.4515 -2.45638,1.79256 -2.45638,3.33519c0,1.54263 0.98631,2.88369 2.45638,3.33788c8.2775,2.55044 10.46781,4.74075 13.02094,13.01825c0.4515,1.47006 1.79256,2.45637 3.33519,2.45637c1.54262,0 2.88369,-0.98631 3.33787,-2.45638c2.55044,-8.2775 4.74075,-10.46781 13.01825,-13.02094c1.47006,-0.4515 2.45638,-1.79256 2.45638,-3.33519zM139.75,39.41219c-2.1715,-4.88319 -4.9665,-7.67819 -9.84969,-9.84969c4.88319,-2.1715 7.67819,-4.9665 9.84969,-9.84969c2.1715,4.8805 4.96919,7.67819 9.84969,9.84969c-4.88319,2.1715 -7.67819,4.9665 -9.84969,9.84969z" fill="#fa000d"></path><path d="M148.76925,44.48619c8.16731,12.31681 12.48075,26.67344 12.48075,41.51381c0,41.49231 -33.75769,75.25 -75.25,75.25c-14.84037,0 -29.197,-4.31344 -41.51381,-12.48075l-2.96969,4.48275c13.201,8.74781 28.58425,13.373 44.4835,13.373c44.45663,0 80.625,-36.16837 80.625,-80.625c0,-15.89925 -4.62519,-31.2825 -13.373,-44.48619z" fill="#fa000d"></path><path d="M25.026,130.10994c-9.33906,-12.88656 -14.276,-28.14081 -14.276,-44.10994c0,-41.49231 33.75769,-75.25 75.25,-75.25c13.44556,0 26.6385,3.58781 38.15444,10.37644l2.7305,-4.63056c-12.341,-7.27506 -26.47994,-11.12088 -40.88494,-11.12088c-44.45662,0 -80.625,36.16837 -80.625,80.625c0,17.11131 5.29169,33.454 15.29994,47.26506z" fill="#fa000d"></path><path d="M141.9,98.3625l8.0625,-10.75c0.61275,-0.81431 0.7095,-1.90275 0.25531,-2.81381c-0.45687,-0.91106 -1.38675,-1.48619 -2.40531,-1.48619h-5.51206c-1.41631,-29.86619 -26.08756,-53.75 -56.30044,-53.75c-25.76775,0 -48.24331,17.40694 -54.66106,42.33081l5.20838,1.33837c5.80231,-22.54812 26.13862,-38.29419 49.45269,-38.29419c27.24856,0 49.5145,21.47044 50.92544,48.375h-5.23794c-1.01856,0 -1.94844,0.57512 -2.40531,1.48619c-0.45419,0.91106 -0.35744,1.9995 0.25531,2.81381l8.0625,10.75c0.50525,0.67725 1.30344,1.075 2.15,1.075c0.84656,0 1.64206,-0.39775 2.15,-1.075zM137.0625,88.6875h5.375l-2.6875,3.58244z" fill="#fa000d"></path><path d="M42.71781,92.57631c0.45419,-0.91106 0.35744,-1.9995 -0.25531,-2.81381l-8.0625,-10.75c-1.01319,-1.3545 -3.28681,-1.3545 -4.3,0l-8.0625,10.75c-0.61275,0.81431 -0.7095,1.90275 -0.25531,2.81381c0.45688,0.91106 1.38675,1.48619 2.40531,1.48619h6.00925c3.95331,27.735 27.48775,48.375 55.80325,48.375c23.43231,0 44.68506,-14.74094 52.88463,-36.68438l-5.03369,-1.87856c-7.42019,19.84987 -26.64925,33.18794 -47.85094,33.18794c-25.35656,0 -46.48031,-18.29381 -50.37719,-43h4.68969c1.01856,0 1.94844,-0.57512 2.40531,-1.48619zM32.25,85.10506l2.6875,3.58244h-5.375z" fill="#fa000d"></path></g><path d="" fill="none"></path></g></g></svg>
+        <h3>Elite Clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+  
+      <div class="feature-box col-lg-4 md-12">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+        width="96" height="96"
+        viewBox="0 0 172 172"
+        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#fa5f0d"><path d="M121.83333,21.5c-14.964,0 -28.13633,7.65758 -35.83333,19.24967c-7.70058,-11.59208 -20.86933,-19.24967 -35.83333,-19.24967c-23.74675,0 -43,19.25325 -43,43c0,42.79575 78.83333,86 78.83333,86c0,0 78.83333,-42.83875 78.83333,-86c0,-23.74675 -19.25325,-43 -43,-43"></path></g></g></svg>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonials-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonials-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      <button class="c-btn carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="c-btn carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+  <section id="pricing">
+    <h2>A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>  
+    
+    <div class="row">
+    
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-footer">
+            <h2>Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-outline-dark col-12">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>  
+          </div>
+          <div class="card-footer">
+            <h2>$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-dark col-12">Sign Up</button>  
+          </div>
+        </div> 
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-12">
+      <div class="card">
+        <div class="card-header">
+          <h3>Mastiff</h3>
+          
+        </div>
+          <div class="card-footer">
+            <h2>$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-dark col-12">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="footer-text">Find the True Love of Your Dog's Life Today.</h3>
+    <div class="icon-font">
+      <button class="footer-btn btn btn-dark btn-lg" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+        width="19" height="19"
+        viewBox="0 0 172 172"
+        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="#000000"></path><g fill="#ffffff"><path d="M115.5625,7.16667c-8.26317,0.48017 -17.74948,5.08363 -23.38965,10.94596c-5.0955,5.332 -9.11578,13.25094 -7.47461,20.91211c8.97983,0.2365 17.99315,-4.48622 23.38965,-10.45605c5.03817,-5.58283 8.85778,-13.37535 7.47461,-21.40202zM116.05241,39.01074c-12.9645,0 -18.38507,7.96452 -27.36491,7.96452c-9.23783,0 -17.68263,-7.46061 -28.86263,-7.46061c-15.20767,0.00717 -38.32487,14.09437 -38.32487,47.2832c0,30.19317 27.35987,63.70215 42.80404,63.70215c9.38117,0.09317 11.65546,-5.89839 24.38346,-5.96289c12.74233,-0.09317 15.49187,6.04172 24.88737,5.96289c10.578,-0.07883 18.83904,-11.70294 24.87337,-20.91211c4.32867,-6.59333 6.10824,-9.95942 9.46224,-17.41276c-24.88983,-6.30667 -29.842,-46.44482 0,-54.74382c-5.633,-9.6105 -22.07558,-18.42057 -31.85808,-18.42057z"></path></g></g></svg> Download
+      </button>
+      <button class="footer-btn btn btn-light btn-lg" type="button">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+        width="19" height="19"
+        viewBox="0 0 172 172"
+        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="#ff4c68"></path><g fill="#ffffff"><path d="M43.70547,18.40938l59.49453,59.48334l15.35234,-15.35235c-20.97827,-12.728 -49.07545,-29.80249 -61.71172,-37.47943l-8.46563,-5.12865c-1.4964,-0.9116 -3.0986,-1.40252 -4.66953,-1.52292zM34.62396,25.53125c-0.1204,0.6536 -0.22396,1.31042 -0.22396,2.01563v117.55573c0,0.49307 0.09917,0.952 0.16797,1.42214l60.52474,-60.52474zM128.64167,68.66562l-17.33438,17.33438l17.03204,17.03203c9.02427,-5.4696 15.27449,-9.26766 15.96823,-9.6862c3.06733,-1.8748 4.79952,-4.70348 4.74792,-7.79375c-0.04587,-3.03293 -1.77859,-5.74462 -4.72552,-7.41302c-0.65933,-0.3784 -6.82455,-4.1013 -15.68828,-9.47344zM103.2,94.10729l-59.31536,59.31537c1.1524,-0.20067 2.30337,-0.54431 3.40417,-1.20938c1.52507,-0.9288 42.72453,-25.92479 70.9612,-43.05599z"></path></g></g></svg> Download
+      </button>
+    </div>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <div>
+      <img class="footer-icon" src="images/facebook.png" alt="">
+      <img class="footer-icon" src="images/twitter.png" alt="">
+      <img class="footer-icon" src="images/instagram.png" alt="">
+      <img class="footer-icon" src="images/email.png" alt="">
+    </div>
+    <p>© Copyright 2022 TinDog</p>
+
+  </footer>
+
+
+</body>
+
+</html>
